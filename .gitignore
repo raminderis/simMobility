@@ -1,0 +1,40 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.out
+*.test
+*.prof
+
+# Go modules
+go.mod
+go.sum
+
+# Dependency directories
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Config files
+modd.conf
+
+# Logs and debug
+*.log
+*.trace
+*.pprof
+
+# Test data
+data/
+
+# Binaries
+bin/
